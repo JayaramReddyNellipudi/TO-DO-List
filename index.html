@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/bce308ebcd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <h1>Create Your ToDo- List</h1>
+      </header>
+      <main>
+        <input
+          type="text"
+          placeholder="What are Your tasks for today?"
+          id="addbar"
+        />
+        <button type="button" id="add_button">Add</button>
+      </main>
+      <nav>
+        <input type="text" placeholder="Search" id="searchbar" />
+        <button class="search_icon" type="button" id="search_button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </nav>
+      <ul id="todo_list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
