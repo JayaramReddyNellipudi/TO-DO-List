@@ -216,6 +216,7 @@ li{
     }
     nav{
         margin-bottom: 40px;
+        justify-content: center;
     }
     ul{
         margin-top: 70px;
